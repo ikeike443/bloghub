@@ -1,3 +1,4 @@
 language: java
+authorization_server: https://octodemo.com
 jdk:
   - openjdk8
