@@ -2,7 +2,7 @@
 
 set -e
 
-# Should check if Java&Maven exist otherwise install it
+# TODO: Should check if Java&Maven exist otherwise install it
 
 echo "==> Installing Maven dependencies & Packaging…"
 
