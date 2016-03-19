@@ -38,7 +38,7 @@ public class SetupDao {
             entityManager.persist(bobPost3);
 
             // Create a new post
-            Article bobPost2 = new Article(bob, "My second post", lipsum);
+            Article bobPost2 = new Article(bob, "My niban post", lipsum);
             entityManager.persist(bobPost2);
             
             // Create a new post
