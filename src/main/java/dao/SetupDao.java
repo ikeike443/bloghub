@@ -30,7 +30,7 @@ public class SetupDao {
         if (users.size() == 0) {
 
             // Create a new user and save it
-            User bob = new User("bob@gmail.com", "secret", "Bob");
+            User bob = new User("bbbbob@gmail.com", "secret", "Bob");
             entityManager.persist(bob);
             
             // Create a new post
