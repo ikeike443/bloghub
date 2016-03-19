@@ -30,7 +30,7 @@ public class SetupDao {
         if (users.size() == 0) {
 
             // Create a new user and save it
-            User bob = new User("bbbbob@gmail.com", "secret", "Bob");
+            User bob = new User("bob@gmail.com", "secret", "Bob");
             entityManager.persist(bob);
             
             // Create a new post
@@ -38,7 +38,7 @@ public class SetupDao {
             entityManager.persist(bobPost3);
 
             // Create a new post
-            Article bobPost2 = new Article(bob, "My second post", lipsum);
+            Article bobPost2 = new Article(bob, "My niban post", lipsum);
             entityManager.persist(bobPost2);
             
             // Create a new post
