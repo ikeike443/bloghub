@@ -48,6 +48,8 @@ public class ApplicationControllerTest extends NinjaTest {
         // If the redirect has worked we must see the following text
         // from the index screen:
         assertTrue(result.contains("second"));
+        assertTrue(result.contains("Home"));
+        assertTrue(result.contains("Login"));
 
     }
 
